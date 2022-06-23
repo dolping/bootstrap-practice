@@ -14,3 +14,13 @@ body{
 #mainNavbar .nav-link:hover{
     color:red;
 }
+#headerSection1 h2{font-size: 4rem;font-weight: 300;}
+section{height:100vh;overflow: hidden;}
+section > .row{height:100%;}
+section .img-box{height: 100%;}
+.img-box img{width:100%;height:100%;object-fit: cover;}
+.navbar.sticky{background-color: paleturquoise;}
+.navbar, .navbar-collapse{transition: all .3s;}
+@media(max-width:767px){
+    .navbar-nav{background-color: paleturquoise;}
+}
